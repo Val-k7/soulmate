@@ -24,4 +24,13 @@ export interface LogEntry {
   duration?: string;
 }
 
-export type ViewType = 'overview' | 'registry' | 'editor' | 'logs';
+export type ViewType = 'overview' | 'registry' | 'editor' | 'logs' | 'skills' | 'tools' | 'orchestrators' | 'providers' | 'settings';
+
+export interface Tool {
+  id: string;
+  name: string;
+  description: string;
+  type: 'api' | 'function' | 'plugin';
+  status: 'active' | 'inactive';
+  icon: string;
+}

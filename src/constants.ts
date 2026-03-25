@@ -83,3 +83,30 @@ export const LOGS: LogEntry[] = [
     duration: '1.2s'
   }
 ];
+
+export const AGENT_TEMPLATES = [
+  { 
+    name: 'Standard Analyst', 
+    role: 'Neural Data Analyst', 
+    description: 'Expert in processing complex datasets and extracting actionable insights with high precision.', 
+    tags: 'logic, analysis, data' 
+  },
+  { 
+    name: 'Creative Writer', 
+    role: 'Syntactic Architect', 
+    description: 'Specialized in generating high-quality narrative content and creative copy across multiple domains.', 
+    tags: 'creative, writing, synthesis' 
+  },
+  { 
+    name: 'Technical Strategist', 
+    role: 'Systems Architect', 
+    description: 'Focused on long-term technical strategy and complex systems design.', 
+    tags: 'strategy, architecture, technical' 
+  },
+  { 
+    name: 'Research Assistant', 
+    role: 'Information Specialist', 
+    description: 'Optimized for deep research, fact-checking, and information synthesis.', 
+    tags: 'research, synthesis, speed' 
+  }
+];
